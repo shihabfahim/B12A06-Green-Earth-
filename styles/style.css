@@ -1,0 +1,13 @@
+.hero-bg {
+  background-image: url("../Images/Hero_Leaf_1.png"),url("../Images/Hero_Leaf_2.png");
+  background-size: 190px, 190px;
+  background-position: bottom left -20px, bottom right -20px;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 640px) {
+  .hero-bg {
+    background-size: 400px, 400px;
+    background-position: bottom left -35px, bottom right -35px;
+  }
+}
