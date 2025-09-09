@@ -178,5 +178,113 @@
         </div>
       </section>
     </header>
+
+        <main class="bg-[#f0fdf4]">
+      <section id="Gallery" class="max-w-7xl mx-auto py-9 w-[97%] sm:py-20">
+        <h1
+          class="text-center font-semibold text-xl mb-7 sm:text-[27px] sm:mb-11"
+        >
+          Choose Your Trees
+        </h1>
+        <div class="sm:flex sm:gap-5 sm:items-start">
+          <div class="hidden sm:block flex-1">
+            <h3 class="mb-3 text-xl font-semibold">Categories</h3>
+            <ul id="Categories_Container" class="space-y-1"></ul>
+          </div>
+          <div
+            id="Card_Container"
+            class="w-[95%] mx-auto grid grid-cols-1 gap-5 sm:w-[100%] sm:grid-cols-3 sm:flex-4"
+          ></div>
+          <div
+            class="hidden sm:block flex-1 bg-white min-h-[520px] p-3.5 rounded-2xl"
+          >
+            <h3 class="text-lg font-semibold mb-3">Your Cart</h3>
+            <div id="Cart_Container">
+              <p class="text-center my-10 text-[15px]">
+                No items in your cart yet.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <dialog id="Tree_Info_Modal" class="modal">
+        <div class="modal-box rounded-2xl">
+          <form method="dialog">
+            <button
+              class="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
+            >
+              ✕
+            </button>
+          </form>
+          <div id="Modal_Content" class="space-y-3 sm:space-y-5"></div>
+        </div>
+      </dialog>
+      <section
+        id="About"
+        class="scroll-mt-11 max-w-4xl mx-auto pb-9 w-[97%] sm:pb-20"
+      >
+        <h1
+          class="text-center font-semibold text-xl mb-7 sm:text-[27px] sm:mb-11"
+        >
+          About the Campaign
+        </h1>
+        <div
+          class="w-[95%] mx-auto flex flex-col gap-5 sm:w-[100%] sm:gap-9 sm:flex-row sm:items-center"
+        >
+          <div class="flex-1">
+            <img src="Images/About.png" alt="" />
+          </div>
+          <div class="flex-1 text-[#1f2937] text-justify">
+            <p>
+              Green Earth is a global tree plantation initiative dedicated to
+              fighting climate change. Since our start, we’ve planted over
+              500,000 trees worldwide. By joining our campaign, you help restore
+              forests, create habitats for wildlife, and combat global warming.
+            </p>
+            <ul class="list-disc pt-3 pl-7">
+              <li>Restoration of natural habitats</li>
+              <li>Improvement of air quality</li>
+              <li>Support for local communities</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="Impact" class="bg-[#cff0dc] pb-9 sm:pb-20">
+        <div class="max-w-7xl mx-auto w-[90%]">
+          <h1
+            class="text-center font-semibold text-xl pt-9 mb-7 sm:text-[27px] sm:pt-20 sm:mb-11"
+          >
+            Our Impact
+          </h1>
+          <div class="grid grid-cols-1 gap-5 sm:grid-cols-3">
+            <div
+              class="bg-white py-7 text-center rounded-xl sm:py-10 sm:rounded-2xl"
+            >
+              <h5 class="text-[#15803d] text-2xl font-semibold sm:text-3xl">
+                500K+
+              </h5>
+              <p class="text-[13px] mt-3 sm:text-base">Trees Planted</p>
+            </div>
+            <div
+              class="bg-white py-7 text-center rounded-xl sm:py-10 sm:rounded-2xl"
+            >
+              <h5 class="text-[#15803d] text-2xl font-semibold sm:text-3xl">
+                120+
+              </h5>
+              <p class="text-[13px] mt-3 sm:text-base">Communities Involved</p>
+            </div>
+            <div
+              class="bg-white py-7 text-center rounded-xl sm:py-10 sm:rounded-2xl"
+            >
+              <h5 class="text-[#15803d] text-2xl font-semibold sm:text-3xl">
+                30+
+              </h5>
+              <p class="text-[13px] mt-3 sm:text-base">Countries Reached</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
   </body>
 </html>
